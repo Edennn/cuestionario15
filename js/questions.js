@@ -138,6 +138,10 @@ function ponerDatosInputHtml(t){
  document.getElementById("tituloInput").innerHTML = t;
 }
 
+function ponerDatosInputHtml2(t){
+ document.getElementById("tituloInput2").innerHTML = t;
+}
+
 
 function ponerDatosSelectHtml(t,opt){
   document.getElementById("tituloSelect").innerHTML=t;
