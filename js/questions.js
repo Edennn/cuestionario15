@@ -1,6 +1,6 @@
 var formElement=null;
 var numeroSecreto=null;
-
+ver numerosecreto2=null;
 var respuestaSelect=null;
 
 var respuestasCheckbox = [];
@@ -46,6 +46,11 @@ function gestionarXml(dadesXml){
  var tituloInput=xmlDoc.getElementsByTagName("title")[0].innerHTML;
  ponerDatosInputHtml(tituloInput);
  numeroSecreto=parseInt(xmlDoc.getElementsByTagName("answer")[0].innerHTML);
+	
+ //NUMBER 2	
+ var tituloInput2=xmlDoc.getElementsByTagName("title")[3].innerHTML;
+ ponerDatosInputHtml2(tituloInput);
+ numeroSecreto2=parseInt(xmlDoc.getElementsByTagName("answer")[3].innerHTML);
  
  //SELECT
  //Recuperamos el título y las opciones, guardamos la respuesta correcta
