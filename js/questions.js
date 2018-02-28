@@ -59,7 +59,7 @@ function gestionarXml(dadesXml){
  var nopt = xmlDoc.getElementById("profe_002").getElementsByTagName('option').length;
   for (i = 0; i < nopt; i++) { 
     opcionesSelect[i] = xmlDoc.getElementById("profe_002").getElementsByTagName('option')[i].innerHTML;
- 
+  }
  ponerDatosSelectHtml(tituloSelect,opcionesSelect);
  respuestaSelect=parseInt(xmlDoc.getElementsByTagName("answer")[1].innerHTML);
 
